@@ -8,14 +8,14 @@ A robot capable of following a person inside a hospital
 4. `Ramnathan A/L Senthil Kumar (A203579)`
 
 ## Instructions
-**LAUNCH HOSPITAL WORLD with BURGER_CAM IN GAZEBO**\
+**LAUNCH HOSPITAL WORLD with BURGER_CAM IN GAZEBO (1ST TERMINAL)**\
 `ros2 launch turtlebot3_gazebo hosp_world.launch.py`
 
-**STOP THE YOLO DETECTION**\
+**STOP THE YOLO DETECTION (2ND TERMINAL)**\
 `ros2 service call /yolo/toggle_detection std_srvs/srv/SetBool "{data: false}"`
 
-**RUN RQT TO VIEW YOLO DETECTIONS**\
+**RUN RQT TO VIEW YOLO DETECTIONS (3RD TERMINAL)**\
 `rqt`
   
-**START YOLO DETECTION AND PERSON TRACKING**\
+**START YOLO DETECTION AND PERSON TRACKING (2ND TERMINAL)**\
 `ros2 service call /yolo/toggle_detection std_srvs/srv/SetBool "{data: true}"`
