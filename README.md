@@ -1,5 +1,5 @@
 # Patient Following Robot
-A robot capable of following a perosn inside of a hospital
+A robot capable of following a person inside a hospital
 
 ## Author
 1. `Ho Xiang (A181576)`
