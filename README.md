@@ -15,6 +15,7 @@ A robot capable of following a person inside a hospital
 `ros2 service call /yolo/toggle_detection std_srvs/srv/SetBool "{data: false}"`
 
 **RUN RQT TO VIEW YOLO DETECTIONS**\
+`rqt`
   
 **START YOLO DETECTION AND PERSON TRACKING**\
 `ros2 service call /yolo/toggle_detection std_srvs/srv/SetBool "{data: true}"`
