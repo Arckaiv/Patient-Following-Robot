@@ -11,11 +11,11 @@ A robot capable of following a person inside a hospital
 **LAUNCH HOSPITAL WORLD with BURGER_CAM IN GAZEBO (1ST TERMINAL)**\
 `ros2 launch turtlebot3_gazebo hosp_world.launch.py`
 
-**STOP THE YOLO DETECTION (2ND TERMINAL)**\
+**STOP THE HUMAN DETECTION (2ND TERMINAL)**\
 `ros2 service call /yolo/toggle_detection std_srvs/srv/SetBool "{data: false}"`
 
-**RUN RQT TO VIEW YOLO DETECTIONS (3RD TERMINAL)**\
+**RUN RQT TO VIEW YOLO_DETECTIONS (3RD TERMINAL)**\
 `rqt`
   
-**START YOLO DETECTION AND PERSON TRACKING (2ND TERMINAL)**\
+**START HUMAN DETECTION AND PERSON TRACKING (2ND TERMINAL)**\
 `ros2 service call /yolo/toggle_detection std_srvs/srv/SetBool "{data: true}"`
