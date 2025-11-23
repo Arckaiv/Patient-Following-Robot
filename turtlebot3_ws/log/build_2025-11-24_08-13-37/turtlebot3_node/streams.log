@@ -1,0 +1,35 @@
+[0.012s] Invoking command in '/home/kaize/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaize/turtlebot3_ws/install/yolo_pkg:/home/kaize/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/humble /usr/bin/cmake /home/kaize/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/kaize/turtlebot3_ws/install/turtlebot3_node
+[0.166s] -- The C compiler identification is GNU 11.4.0
+[0.166s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.371s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.456s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[0.456s]   By not providing "Finddynamixel_sdk.cmake" in CMAKE_MODULE_PATH this
+[0.456s]   project has asked CMake to find a package configuration file provided by
+[0.456s]   "dynamixel_sdk", but CMake did not find one.
+[0.456s] 
+[0.456s]   Could not find a package configuration file provided by "dynamixel_sdk"
+[0.456s]   with any of the following names:
+[0.456s] 
+[0.456s]     dynamixel_sdkConfig.cmake
+[0.456s]     dynamixel_sdk-config.cmake
+[0.457s] 
+[0.457s]   Add the installation prefix of "dynamixel_sdk" to CMAKE_PREFIX_PATH or set
+[0.457s]   "dynamixel_sdk_DIR" to a directory containing one of the above files.  If
+[0.457s]   "dynamixel_sdk" provides a separate development package or SDK, be sure it
+[0.457s]   has been installed.
+[0.457s] 
+[0.457s] [0m
+[0.457s] -- Configuring incomplete, errors occurred!
+[0.457s] See also "/home/kaize/turtlebot3_ws/build/turtlebot3_node/CMakeFiles/CMakeOutput.log".
+[0.460s] Invoked command in '/home/kaize/turtlebot3_ws/build/turtlebot3_node' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kaize/turtlebot3_ws/install/yolo_pkg:/home/kaize/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/humble /usr/bin/cmake /home/kaize/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/kaize/turtlebot3_ws/install/turtlebot3_node

@@ -1,0 +1,22 @@
+[0.504s] Invoking command in '/home/kaize/turtlebot3_ws/src/yolo_pkg': PYTHONPATH=/home/kaize/turtlebot3_ws/build/yolo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kaize/turtlebot3_ws/install/yolo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_pkg build --build-base /home/kaize/turtlebot3_ws/build/yolo_pkg/build install --record /home/kaize/turtlebot3_ws/build/yolo_pkg/install.log --single-version-externally-managed install_data
+[0.634s] running egg_info
+[0.635s] writing ../../build/yolo_pkg/yolo_pkg.egg-info/PKG-INFO
+[0.635s] writing dependency_links to ../../build/yolo_pkg/yolo_pkg.egg-info/dependency_links.txt
+[0.635s] writing entry points to ../../build/yolo_pkg/yolo_pkg.egg-info/entry_points.txt
+[0.635s] writing requirements to ../../build/yolo_pkg/yolo_pkg.egg-info/requires.txt
+[0.635s] writing top-level names to ../../build/yolo_pkg/yolo_pkg.egg-info/top_level.txt
+[0.636s] reading manifest file '../../build/yolo_pkg/yolo_pkg.egg-info/SOURCES.txt'
+[0.637s] writing manifest file '../../build/yolo_pkg/yolo_pkg.egg-info/SOURCES.txt'
+[0.637s] running build
+[0.637s] running build_py
+[0.637s] running install
+[0.637s] running install_lib
+[0.638s] running install_data
+[0.638s] running install_egg_info
+[0.639s] removing '/home/kaize/turtlebot3_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.639s] Copying ../../build/yolo_pkg/yolo_pkg.egg-info to /home/kaize/turtlebot3_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg-0.0.0-py3.10.egg-info
+[0.640s] running install_scripts
+[0.652s] Installing pursuit_controller script to /home/kaize/turtlebot3_ws/install/yolo_pkg/lib/yolo_pkg
+[0.652s] Installing yolo_detector script to /home/kaize/turtlebot3_ws/install/yolo_pkg/lib/yolo_pkg
+[0.652s] writing list of installed files to '/home/kaize/turtlebot3_ws/build/yolo_pkg/install.log'
+[0.669s] Invoked command in '/home/kaize/turtlebot3_ws/src/yolo_pkg' returned '0': PYTHONPATH=/home/kaize/turtlebot3_ws/build/yolo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kaize/turtlebot3_ws/install/yolo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_pkg build --build-base /home/kaize/turtlebot3_ws/build/yolo_pkg/build install --record /home/kaize/turtlebot3_ws/build/yolo_pkg/install.log --single-version-externally-managed install_data
