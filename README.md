@@ -26,7 +26,7 @@ A robot capable of following a person inside a hospital
 **5. Install dependencies explicitly for Python 3.9**\
 `python3.9 -m pip install ultralytics`\
 `python3.9 -m pip install numpy==1.24.4`\
-`python3.9 -m pip install onnx onnxruntime-gpu`\
+`python3.9 -m pip install onnx onnxruntime-gpu`
 
 **6. Navigate to source directory**\
 `cd ~/turtlebot3_ws/src`
