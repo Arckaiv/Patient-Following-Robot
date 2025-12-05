@@ -28,8 +28,6 @@ A robot capable of following a person inside a hospital
 `python3.9 -m pip install numpy==1.24.4`
 `python3.9 -m pip install onnx onnxruntime-gpu`
 
-↓ Source: https://emanual.robotis.com/docs/en/platform/turtlebot3/autonomous_driving/#autonomous-driving
-
 **6. Navigate to source directory**\
 `cd ~/turtlebot3_ws/src`
 
@@ -47,6 +45,8 @@ A robot capable of following a person inside a hospital
 
 **11 Verify the camera feed**\
 `ros2 launch turtlebot3_gazebo turtlebot3_autorace_2020.launch.py`
+
+↑ Source: https://emanual.robotis.com/docs/en/platform/turtlebot3/autonomous_driving/#autonomous-driving
 
 
 ## Instructions
