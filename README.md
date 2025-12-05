@@ -38,7 +38,7 @@ A robot capable of following a person inside a hospital
 `cd ~/turtlebot3_ws && colcon build --symlink-install`
 
 **9. Source the setup file**\
-`echo 'export GAZEBO_PLUGIN_PATH=$HOME/{your_ws}/build/turtlebot3_gazebo:$GAZEBO_PLUGIN_PATH' >> ~/.bashrc`
+`echo 'export GAZEBO_PLUGIN_PATH=$HOME/turtlebot3_ws/build/turtlebot3_gazebo:$GAZEBO_PLUGIN_PATH' >> ~/.bashrc`
 
 **10. Setting Turtlebot3 model (burger_cam)**\
 `echo 'export TURTLEBOT3_MODEL=burger_cam' >> ~/.bashrc`
